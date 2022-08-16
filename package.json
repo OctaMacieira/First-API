@@ -1,0 +1,26 @@
+{
+  "name": "first-api",
+  "version": "1.0.0",
+  "description": "- [x] Intialize project `npm init -y`\r - [x] Install dependencies `npm i express nodemon cors axios`\r - [x] Create access route for the API\r - [x] Serve API\r - [x] Enable CORS\r - [x] Enable nodemon to initialize server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OctaMacieira/First-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OctaMacieira/First-API/issues"
+  },
+  "homepage": "https://github.com/OctaMacieira/First-API#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}
